@@ -41,10 +41,10 @@ WHAT THE CODE ACTUALLY DOES:
 	
 	The output is then written to file. 
 
-2) ASCII shift
+2) Letter shift
 
-	For the special case of NUM_BYT = 0, the code takes the input, capitalises it, and replaces all
-	characters which are not capital letters with spaces.
+	For the special case of NUM_BYT = 0, the code takes the ASCII input, capitalises it, and replaces 
+	all characters which are not capital letters with spaces.
 	
 	i.e. 
 		input		[The quick brown dog jumped over the lazy dogs. What an odd sentence!]
